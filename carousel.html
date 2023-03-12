@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carousel</title>
+
+    <!-- css code -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- icons ke liye cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="https://via.placeholder.com/800x400?text=Slide+1" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="https://via.placeholder.com/800x400?text=Slide+2" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="https://via.placeholder.com/800x400?text=Slide+3" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button class="active" data-bs-slide-to="0" data-bs-target="#myCarousel"></button>
+                        <button data-bs-slide-to="1" data-bs-target="#myCarousel"></button>
+                        <button data-bs-slide-to="2" data-bs-target="#myCarousel"></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://via.placeholder.com/800x400?text=Slide+1" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/800x400?text=Slide+2" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/800x400?text=Slide+3" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- In this example, we have a carousel with three slides (carousel-item) and left and right navigation arrows (carousel-control-prev and carousel-control-next). The active class is added to the first slide to make it the default active slide.
+
+The w-100 class is added to the img elements to make them responsive and take up the full width of the carousel container.
+
+The data-bs-ride="carousel" attribute on the carousel container activates the automatic cycling behavior for the carousel.
+
+The left and right navigation arrows use the default Bootstrap icons provided by the carousel-control-prev-icon and carousel-control-next-icon classes.
+
+Overall, this carousel has responsive behavior thanks to the use of the w-100 class on the img elements and the automatic adjustment of the navigation arrows based on the width of the carousel container. -->
+
+    <!--  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!--  
+    In Bootstrap 5, the carousel component provides several classes that can be used to customize its appearance and
+    behavior. Here are the classes you can use along with their corresponding responsive behavior:
+
+    carousel: This class is used to define the container for the carousel. It sets the width to 100% and hides any
+    overflow.
+
+    carousel-inner: This class is used to define the inner container for the carousel. It sets the position to relative
+    and the width to 100%.
+
+    carousel-item: This class is used to define each item in the carousel. It sets the display to none by default and
+    should be activated with the active class.
+
+    active: This class is used to activate a specific carousel item. When added to a carousel-item, it sets the display
+    to block and shows the item.
+
+    carousel-control-prev and carousel-control-next: These classes are used to define the left and right navigation
+    arrows for the carousel.
+
+    carousel-control-prev-icon and carousel-control-next-icon: These classes are used to define the icons for the left
+    and right navigation arrows.
+
+    slide and fade: These classes are used to define the transition effect for the carousel. The slide class is the
+    default and creates a sliding animation, while the fade class creates a fading animation.
+
+    Responsive Behavior:
+
+    carousel and carousel-inner classes are set to width: 100% by default, making them responsive.
+
+    carousel-item class can be made responsive by using Bootstrap's grid system to adjust the size of the content within
+    the item.
+
+    carousel-control-prev and carousel-control-next classes will automatically adjust their position based on the width
+    of the carousel container.
+
+    carousel-control-prev-icon and carousel-control-next-icon classes will automatically adjust their size based on the
+    font-size of their parent element.
+
+    The slide and fade classes will behave the same way on all screen sizes. However, you can adjust the duration of the
+    transition effect by using the data-bs-interval attribute on the carousel element.
+  -->
+</body>
+
+</html>

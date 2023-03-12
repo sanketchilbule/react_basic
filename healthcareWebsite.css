@@ -1,0 +1,187 @@
+ /* Navbar */
+.navbar-brand {
+    font-size: 2rem;
+  }
+  
+  .navbar-nav li {
+    font-size: 1.5rem;
+  }
+  
+  /* Hero section */
+  .hero {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Cards */
+  .card {
+    margin-bottom: 30px;
+  }
+  
+  .card img {
+    max-width: 100%;
+  }
+  
+  /* Jumbotron */
+  .jumbotron {
+    background-color: #f8f9fa;
+  }
+  
+  .jumbotron h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .jumbotron p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Toggle */
+  .toggle {
+    margin-bottom: 30px;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  .footer a {
+    color: #f8f9fa;
+  }
+  
+  .footer .text-muted {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .footer .text-center {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #f8f9fa;
+  }
+  
+  /* Content */
+  .content {
+    padding: 50px 0;
+  }
+  
+  .content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .content ul li {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .content ul li:before {
+    content: "\2022";
+    margin-right: 10px;
+    color: #007bff;
+  }
+  
+  /* Carousel */
+  .carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-item h3 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .carousel-item p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    /* Navbar */
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+  
+    .navbar-nav li {
+      font-size: 1rem;
+    }
+  
+    /* Hero section */
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero p {
+      font-size: 1.25rem;
+    }
+  
+    /* Cards */
+    .card {
+      margin-bottom: 20px;
+    }
+  
+    /* Jumbotron */
+    .jumbotron h2 {
+      font-size: 2.5rem;
+    }
+  
+    .jumbotron p {
+      font-size: 1.25rem;
+    }
+  
+    /* Content */
+    .content h2 {
+      font-size: 2.5rem;
+    }
+  
+    .content p {
+      font-size: 1.25rem;
+    }
+  
+    .content ul li {
+      font-size: 1.25rem;
+    }
+  
+    /* Carousel */
+    .carousel-item {
+      height: 300px;
+    }
+    
+    .carousel-item h3 {
+    font-size: 2.5rem;
+    }
+    
+    .carousel-item p {
+    font-size: 1.25rem;
+    }
+    }
+  

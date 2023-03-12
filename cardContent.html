@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complex card</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- icons ke liye cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+
+    <style>
+        .card {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-body {
+            padding: 1.5rem;
+        }
+
+        .card-title {
+            font-size: 2rem;
+        }
+
+        .list-group-item i {
+            color: #888;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0062cc;
+            border-color: #005cbf;
+        }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            border-color: #6c757d;
+        }
+
+        .btn-secondary:hover {
+            background-color: #5a6268;
+            border-color: #545b62;
+        }
+        .test{
+            width: 80rem;
+            height: 20rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid border">
+        <div class="card my-5">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="./images/car.jpeg" class="img-fluid test rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h2 class="card-title">Card Title</h2>
+                        <h5 class="card-subtitle mb-3">Card Subtitle</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis erat
+                            a ipsum ultrices tristique. Duis efficitur mi vel fermentum commodo. In fringilla massa
+                            lectus, ut commodo enim auctor ac. Sed gravida aliquet dolor, in hendrerit sapien sagittis
+                            a. Nulla facilisi. </p>
+                        <ul class="list-group list-group-flush mb-4">
+                            <li class="list-group-item"><strong>Item 1:</strong> Lorem ipsum dolor sit amet</li>
+                            <li class="list-group-item"><strong>Item 2:</strong> consectetur adipiscing elit</li>
+                            <li class="list-group-item"><strong>Item 3:</strong> Nulla iaculis erat a ipsum ultrices
+                                tristique</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary me-3">Learn More</a>
+                        <a href="#" class="btn btn-secondary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="container">
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="./images/pineapple.jpeg" class="img-fluid test m-2 rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h2 class="card-title">Card Title</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis erat
+                            a ipsum ultrices tristique. Duis efficitur mi vel fermentum commodo. In fringilla massa
+                            lectus, ut commodo enim auctor ac. Sed gravida aliquet dolor, in hendrerit sapien sagittis
+                            a. Nulla facilisi. </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><i class="fas fa-map-marker-alt me-2"></i>123 Main St, Anytown
+                                USA</li>
+                            <li class="list-group-item"><i class="fas fa-phone-alt me-2"></i>(123) 456-7890</li>
+                            <li class="list-group-item"><i class="fas fa-envelope me-2"></i>info@example.com</li>
+                        </ul>
+                        <div class="card-footer">
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <button class="btn btn-primary me-md-2" type="button">Learn More</button>
+                                <button class="btn btn-secondary" type="button">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<!-- In this example, we have used several Bootstrap classes to create a card with an image, title, subtitle, text, list, and buttons. Here's a breakdown of what each class does:
+
+container: creates a fixed-width container to center the card on the page.
+card: creates a container for the card with a default background color and border.
+my-5: adds a margin of 5 units (i.e., 1rem) on the top and bottom of the card to separate it from other content.
+row: creates a row to contain the image and card body.
+g-0: removes the default gutter spacing between columns in the row.
+col-md-4: creates a column for the image with a width of 4 units on medium-sized screens and above.
+img-fluid: makes the image responsive so that it scales with the size of its container.
+rounded-start: adds a rounded border to the left side of the image to match the shape of the card.
+col-md-8: creates a column for the card body with a width of 8 units on medium-sized screens and above.
+card-body: creates a container for the card text and buttons.
+card-title: adds a large heading to the card with bold text.
+card-subtitle: adds a smaller heading to the card with regular text.
+mb-3: adds a margin of 3 units (i.e., 0.5rem) on the bottom of the subtitle to separate it from the text.
+card-text: adds a paragraph of text to the card.
+list-group: creates a container for a list of items.
+list-group-item: creates a single item in the list.
+list-group-flush: removes the default border and padding from the list container to create a flush appearance -->
